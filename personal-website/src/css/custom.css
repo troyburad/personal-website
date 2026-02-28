@@ -1,0 +1,31 @@
+.socials svg {
+  font-size: 2rem;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+}
+.socials svg:hover {
+  color: #ccc;
+}
+
+.nameLabel {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.navLabels {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid white;
+}
