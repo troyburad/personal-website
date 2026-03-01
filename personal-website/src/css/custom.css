@@ -36,6 +36,19 @@
   object-fit: cover;
 }   
 
+.courses a {
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+}
+
+.courses a:hover {
+  color: #FF5439;
+}
+
 .hero-section {
   background-color: #242424;
 }
@@ -105,6 +118,37 @@
   padding-bottom: 100px;
 }
 
+.red {
+  padding-top: 50px;
+}
+
+.redContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redContainer::before {
+  content: '';
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: #82a67d;
+  border-radius: 50%;
+  z-index: 0;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.redContainer img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 300px;
+}
+
 .repo-card {
     display: flex;
     flex-direction: column;
@@ -130,6 +174,14 @@
   transform: scale(1.03) translateZ(0px);
 }
 
+.skills {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.skillsLeft {
+  padding-top: 100px;
+}
 .socials {
   display: flex;
   gap: 15px;

@@ -19,7 +19,7 @@ function Projects() {
             </p>
             <br></br>
             <br></br>
-            <div className="circle-image mx-auto pack">
+            <div className="circle-image d-block mx-auto pack">
               <img src={pack} alt="" style={{ width: "450px" }} />
             </div>
           </Col>
